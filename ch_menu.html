@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cheezo's Sandwiches Mobile Menu</title>
+	<link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/ch_reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mukta&family=Signika+Negative&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/ch_menu.css">
+</head>
+<body>
+	<header>
+		<div>
+			<h2>Need Catering?</h2>
+			<h4>Email us at <a href="mailto:cheezossandwiches@example.com">cheezos@example.com</a></h4>
+			<h4>OR call us at <a href="tel:6155550164">(615) 555-0164</a></h4>
+		</div>
+		<img id="logo" src="images/logo.jpg" usemap="#logo_link">
+		<a href="#"><img class="social" src="images/twitter.png" alt="Link to Twitter page"></a>
+		<a href="#"><img class="social" src="images/facebook.png" alt="Link to Facebook page"></a>
+		<map name="logo_link">
+			<area shape="rect" coords="0, 0, 10000, 10000" href="ch_home.html">
+		</map>
+		<nav>
+			<a href="ch_home.html">Home</a>
+			<a href="ch_about.html">About</a>
+			<a class="alreadyThere" href="#">Menu</a>
+			<a href="ch_reviews.html">Reviews</a>
+		</nav>
+	</header>
+	<section id="main">
+		<h1>Menu</h1>
+		<div id="list">
+			<ul>
+				<li>
+					<a href="#specials">Today's Specials</a>
+				</li>
+				<li>
+					<a href="#ingredients">Ingredients</a>
+				</li>
+				<li>
+					<a href="#fries">Fries</a>
+				</li>
+				<li>
+					<a href="#drinks">Drinks</a>
+				</li>
+			</ul>
+		</div>
+		<p class="outside" id="explanation">Order one of our appetizing specials or choose to build your own sandwich. Pick your bread and cheese, add any other ingredients you want and choose how long you want to be cooked for between light, regular, and well done. The possibilities are endless!</p>
+		<h3 id="specials">Today's Specials ($4.99 each)</h3>
+		<dl>
+			<dt>Blazin' Beef</dt>
+			<dd>A grilled cheese sandwich made with multigrain bread and shredded cheddar, double-loaded with jalepe&#241;os and Philly steak, and finished off with a dollop of buffalo sauce.</dd>
+			<dt>Meat Lover's</dt>
+			<dd>Served on ciabatta bread and marble colby cheese, this sandwich is loaded with bacon, sliced ham, salami, pulled pork, and grilled chicken.</dd>
+			<dt>Toastie Dijon</dt>
+			<dd>A grilled cheese served on pumpernickel and aged gouda, loaded with shredded lettuce, diced tomatoes, pulled pork, and finished off with a hefty amount of mustard.</dd>
+		</dl>
+		<h3 id="ingredients">Ingredients</h3>
+		<h5 class="outside">First, pick your bread and cheese.</h5>
+		<div id="bread">
+			<h4>Breads ($1.99 each)</h4>
+			<ul>
+				<li>
+					<p>White Bread</p>
+				</li>
+				<li>
+					<p>Wheat Bread</p>
+				</li>
+				<li>
+					<p>Marble Rye</p>
+				</li>
+				<li>
+					<p>Sourdough</p>
+				</li>
+				<li>
+					<p>Multigrain Bread</p>
+				</li>
+				<li>
+					<p>Flatbread</p>
+				</li>
+				<li>
+					<p>Rosemary Focaccia</p>
+				</li>
+				<li>
+					<p>Pumpernickel</p>
+			 	</li>
+				<li>
+					<p>Ciabatta</p>
+				</li>
+				<li>
+					<p>Three Cheese Bread</p>
+				</li>
+				<li>
+					<p>Pretzel Bread</p>
+				</li>
+			</ul>
+		</div>
+		<div id="cheese">
+			<h4>Cheeses ($1.00 each)</h4>
+			<ul>
+				<li>
+					<p>American Cheese</p>
+				</li>
+				<li>
+					<p>Swiss Cheese</p>
+				</li>
+				<li>
+					<p>Pepperjack Cheese</p>
+				</li>
+				<li>
+					<p>Shredded Cheddar</p>
+				</li>
+				<li>
+					<p>Shredded Mozzarella</p>
+				</li>
+				<li>
+					<p>Marble Colby Cheese</p>
+				</li>
+				<li>
+					<p>Aged Gouda</p>
+				</li>
+				<li>
+					<p>Provolone Cheese</p>
+				</li>
+				<li>
+					<p>Asiago Cheese</p>
+				</li>
+				<li>
+					<p>Havarti Cheese</p>
+				</li>
+				<li>
+					<p>Gorgonzola Cheese</p>
+				</li>
+			</ul>
+		</div>
+		<h5 class="outside">Next, select your toppings.</h5>
+		<div id="meat">
+			<h4>Meats ($1.00 each)</h4>
+			<ul>
+				<li>
+					<p>Bacon</p>
+				</li>
+				<li>
+					<p>Sliced Ham</p>
+				</li>
+				<li>
+					<p>Sliced Turkey</p>
+				</li>
+				<li>
+					<p>Grilled Chicken</p>
+				</li>
+				<li>
+					<p>Pulled Pork</p>
+				</li>
+				<li>
+					<p>Sliced Salami</p>
+				</li>
+				<li>
+					<p>Lobster Chunks</p>
+				</li>
+				<li>
+					<p>Corned Beef</p>
+				</li>
+			</ul>
+		</div>
+		<div id="vegetable">
+			<h4>Vegetables ($0.75 each)</h4>
+			<ul>
+				<li>
+					<p>Diced Tomatoes</p>
+				</li>
+				<li>
+					<p>Shredded Lettuce</p>
+				</li>
+				<li>
+					<p>Jalape&#241;os</p>
+				</li>
+				<li>
+					<p>Fajita Peppers</p>
+				</li>
+				<li>
+					<p>Sauteed Onions</p>
+				</li>
+				<li>
+					<p>Mushrooms</p>
+				</li>
+				<li>
+					<p>Deep-Fried Pickles</p>
+				</li>
+				<li>
+					<p>Olives</p>
+				</li>
+			</ul>
+		</div>
+		<div id="sauce">
+			<h4>Sauces ($0.50 each)</h4>
+			<ul>
+				<li>
+					<p>Ketchup</p>
+				</li>
+				<li>
+					<p>Mustard</p>
+				</li>
+				<li>
+					<p>Ranch Dressing</p>
+				</li>
+				<li>
+					<p>Buffalo Sauce</p>
+				</li>
+				<li>
+					<p>BBQ Sauce</p>
+				</li>
+				<li>
+					<p>Honey Mustard</p>
+				</li>
+			</ul>
+		</div>
+		<div id="misc">
+			<h4>Miscellaneous ($0.75 each)</h4>
+			<ul>
+				<li>
+					<p>Fried Egg</p>
+				</li>
+				<li>
+					<p>Sauerkraut</p>
+				</li>
+			</ul>
+		</div>
+		<img id="sandwich" src="images/sandwich.jpg" alt="One of our delicious grilled cheese sandwiches">
+		<h3 id="fries">Fries</h3>
+		<h5 class="outside">Choose between one of 5 different fries to go with your sandwich. Then, select toppings to load up those fries with!</h5>
+		<div id="fryOptions">
+			<h4>Fries ($1.99 each)</h4>
+			<ul>
+				<li>
+					<p>French Fries</p>
+				</li>
+				<li>
+					<p>Curly Fries</p>
+				</li>
+				<li>
+					<p>Waffle Fries</p>
+				</li>
+				<li>
+					<p>Sweet Potato Wedges</p>
+				</li>
+				<li>
+					<p>Crinkle-Cut Fries</p>
+				</li>
+			</ul>
+		</div>
+		<div id="fryToppings">
+			<h4>Toppings ($0.75 each)</h4>
+			<ul>
+				<li>
+					<p>Shredded Cheddar</p>
+				</li>
+				<li>
+					<p>Bacon Bits</p>
+				</li>
+				<li>
+					<p>Jalape&#241;os</p>
+				</li>
+				<li>
+					<p>Chili</p>
+				</li>
+			</ul>
+		</div>
+		<img id="fryImage" src="images/fries.jpg" alt="A close-up of our succulent french fries getting ready for your order">
+		<img id="view" src="images/restaurant_view.jpg" alt="A nice view of our restaurant">
+		<div id="frySeasoning">
+			<h4>Seasonings ($0.50 each)</h4>
+			<ul>
+				<li>
+					<p>Rosemary</p>
+				</li>
+				<li>
+					<p>Poutine Seasoning</p>
+				</li>
+				<li>
+					<p>Steak Seasoning</p>
+				</li>
+			</ul>
+		</div>
+		<div id="fryCondiments">
+			<h4>Condiments ($0.50 each)</h4>
+			<ul>
+				<li>
+					<p>Ketchup</p>
+				</li>
+				<li>
+					<p>Ranch Dressing</p>
+				</li>
+				<li>
+					<p>BBQ Sauce</p>
+				</li>
+				<li>
+					<p>Sour Cream</p>
+				</li>
+			</ul>
+		</div>
+		<h3 id="drinks">Drinks</h3>
+		<h5 class="outside">After picking your sandwich and your fries, finish it all off with a drink to wash it down!</h5>
+		<div id="drinks">
+			<h4>Drinks</h4>
+			<ul>
+				<li>
+					<p>Coca Cola ($1.99)</p>
+				</li>
+				<li>
+					<p>Sprite ($1.99)</p>
+				</li>
+				<li>
+					<p>Root Beer ($1.99)</p>
+				</li>
+				<li>
+					<p>Dr. Pepper ($1.99)</p>
+				</li>
+				<li>
+					<p>Iced Tea ($1.49, add sweetener for $0.50)</p>
+				</li>
+				<li>
+					<p>Water ($0.99)</p>
+				</li>
+			</ul>
+		</div>
+		<img id="soda" src="images/soda.jpg" alt="A nice refreshing glass of soda">
+	</section>
+	<footer>
+		<p>&#169; 2015-2023, All Rights Reserved</p>
+	</footer>
+</body>
+</html>

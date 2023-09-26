@@ -1,0 +1,101 @@
+/* Cheezo's Restaurant Project Menu Stylesheet */
+div#list {
+	float: right;
+	margin: 1% 5%;
+	padding-right: 10px;
+}
+div#bread, div#meat, div#sauce, div#fryOptions, div#frySeasoning, div#drinks {
+	clear: both;
+	width: 40%;
+	margin-left: 5%;
+	padding: 5px;
+	float: left;
+}
+div#cheese, div#vegetable, div#misc, div#fryToppings, div#fryCondiments {
+	clear: right;
+	width: 40%;
+	margin-right: 5%;
+	padding: 5px;
+	float: right;
+}
+div#meat, div#vegetable, div#fryOptions, div#fryToppings, div#drinks {
+	margin-bottom: 10px;
+}
+div h4 {
+	padding-left: 5%;
+}
+h1, h3, .outside, dl {
+	clear: left;
+	float: left;
+	padding-left: 15px;
+}
+h1 {
+	font-size: 32pt;
+}
+h3 {
+	font-size: 20pt;
+	margin-bottom: 0;
+}
+h5 {
+	font-size: 12pt;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+p#explanation {	
+	width: 66%;
+	margin-bottom: 1%;
+}
+img#soda{
+	float: right;
+	margin-right: 10%;
+	width: 30%;
+	margin-bottom: 10px;
+}
+img#sandwich {
+	clear: right;
+	float: right;
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+img#fryImage {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+	margin-bottom: 10px;
+}
+img#view {
+	clear: right;
+	float: right;
+	margin-right: 5%;
+	width: 40%;
+}
+section#main div, section#main img {
+	box-shadow: black 5px 5px 10px;
+	background-color: palegoldenrod;
+	border: 2px solid darkgoldenrod;
+	border-radius: 30px;
+}
+dt {
+	font-weight: bold;
+	font-size: 15pt;
+}
+dd {
+	width: 90%;
+}
+@media only screen and (max-width: 480px) {
+	p#explanation {
+		width: 90%;
+	}
+	dd {
+		width: 80%;
+	}
+	section#main div, section#main img {
+		clear: both;
+		float: none;
+		width: 80%;
+		margin-left: 8%;
+		margin-bottom: 10px;
+	}
+}

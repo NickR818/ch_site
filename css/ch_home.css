@@ -1,0 +1,30 @@
+/* Cheezo's Restaurant Homepage Stylesheet */
+h1, h3, p, img, address, section#main div {
+	margin-left: 8%;
+}
+a {
+	color: rgb(181, 181, 0);
+}
+section#main img {
+	box-shadow: black 5px 5px 10px;
+	border: 2px solid darkgoldenrod;
+	border-radius: 30px;
+	width: 80%;
+}
+section#main div {
+	box-shadow: black 5px 5px 10px;
+	border-radius: 30px;
+	border: 2px solid darkgoldenrod;
+	background-color: palegoldenrod;
+	width: 25%;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 480px) {
+	p {
+		width: 90%;
+	}
+	section#main div {
+		width: 80%;
+	}
+}

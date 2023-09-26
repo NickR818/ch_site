@@ -1,0 +1,39 @@
+/* Cheezo's Sandwiches Reviews Page Stylesheet */
+h1 {
+	padding-left: 5%;
+}
+div {
+	background-color: palegoldenrod;
+	border: 2px solid darkgoldenrod;
+	border-radius: 30px;
+	width: 40%;
+	padding: 5px;
+	box-shadow: black 5px 5px 10px;
+	margin-bottom: 10px;
+}
+div.left {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+}
+div.right {
+	clear: right;
+	float: right;
+	margin-right: 5%;
+}
+div p:first-of-type {
+	padding-bottom: 5px;
+	border-bottom: 1px solid darkgoldenrod;
+}
+div p:last-of-type {
+	text-align: right;
+}
+@media only screen and (max-width: 480px) {
+	section#main div {
+		clear: both;
+		float: none;
+		width: 80%;
+		margin-left: 8%;
+		margin-bottom: 10px;
+	}
+}
