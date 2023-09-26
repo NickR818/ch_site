@@ -98,4 +98,7 @@ dd {
 		margin-left: 8%;
 		margin-bottom: 10px;
 	}
+	div#list {
+		display: none;
+	}
 }
