@@ -28,6 +28,9 @@ div p:first-of-type {
 div p:last-of-type {
 	text-align: right;
 }
+div:last-of-type {
+	margin-bottom: 50px
+}
 @media only screen and (max-width: 480px) {
 	section#main div {
 		clear: both;
